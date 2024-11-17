@@ -1,0 +1,107 @@
+<!DOCTYPE html> 
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8"> 
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+    <title>Document</title> 
+</head> 
+<body> 
+    <header> 
+        <h1>this is header area</h1> 
+    </header> 
+    <div class="container"> 
+        <div class="box1"></div> 
+        <div class="box2"></div> 
+        <div class="box3"></div> 
+        <div class="box4"></div> 
+        <div class="box5"></div> 
+    </div> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam deserunt distinctio, facilis sequi pariatur eos libero sapiente minus, beatae mollitia Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, perferendis debitis. Quidem recusandae iusto similique atque fugit fuga? Esse quam natus nostrum dolores molestiae nobis labore reprehenderit odio praesentium illum explicabo fugit, aut tempore quasi corporis est iure enim, deserunt porro. Voluptas velit earum ab veritatis dignissimos, culpa numquam? Doloremque voluptates inventore magni qui nam, cupiditate ea eaque error quis, magnam sit obcaecati deserunt, eos dolorum explicabo labore voluptatem itaque at sequi iusto tempora! Illum voluptate sapiente, officiis similique magni eum aperiam mollitia pariatur. Pariatur, vel laborum? Maxime hic ad reprehenderit incidunt laboriosam, soluta necessitatibus, obcaecati aperiam accusamus, nam vel! </p> 
+ 
+    <section class="section1"> 
+        <div class="child"></div> 
+    </section> 
+ 
+    <footer> 
+        <p>this is footer area</p> 
+        <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis, asperiores, officiis animi earum maiores voluptates incidunt deleniti error exercitationem eius maxime voluptas voluptatibus blanditiis doloremque quidem quas obcaecati natus tenetur consequuntur fuga laudantium. Quisquam architecto hic, pariatur eveniet minima commodi, qui alias corrupti in ratione vel facilis, labore laudantium magni aliquam dolorem officia quis recusandae maxime fuga consequuntur modi delectus iusto fugit! Vel, harum! Hic voluptas numquam fugit natus itaque nulla! Consectetur ratione beatae repellat minus eius officia accusantium iusto totam vel quas eaque nulla quis facere sequi corrupti ad, a modi libero impedit, blanditiis sint necessitatibus. Amet, a voluptatem?</h1> 
+    </footer> 
+</body> 
+<style> 
+    *{ 
+        margin: 0; 
+        padding: 0; 
+    } 
+    .container{ 
+        width: 400px; 
+        aspect-ratio: 1; 
+        border: 1px solid; 
+        margin: 100px auto; 
+        position: relative; 
+    } 
+ 
+        .box1, .box2, .box3, .box4, .box5{ 
+            width: 50px; 
+            aspect-ratio: 1; 
+            position: absolute; 
+        } 
+ 
+    .box1{ 
+       
+        background-color: red; 
+        left: 0; 
+        top:0; 
+    } 
+    .box2{ 
+       
+        background-color: green; 
+        right: 0; 
+        top: 0; 
+    } 
+    .box3{ 
+       
+        background-color: purple; 
+        right: 0; 
+        bottom: 0; 
+    } 
+    .box4{ 
+      
+        background-color: black; 
+        left: 0; 
+        bottom: 0; 
+    } 
+    .box5{ 
+      
+        background-color: teal; 
+        left: 50%; 
+        top: 50%; 
+        transform: translate(-50%, -50%); 
+    } 
+ 
+    header{ 
+        color: red; 
+        position: fixed; 
+        top: 0; 
+        z-index: 1; 
+    } 
+ 
+    .section1{ 
+        width: 100%; 
+        height: 50vh; 
+        background-color: magenta; 
+    } 
+    .child{ 
+        width: 100px; 
+        aspect-ratio: 1; 
+        background-color: black; 
+        position: sticky; 
+        top: 50%; 
+    } 
+</style> 
+</html> 
+ 
+<!-- positions  
+relative  
+absolute  
+fixed  
+sticky  -->
