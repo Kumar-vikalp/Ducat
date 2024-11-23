@@ -2,6 +2,9 @@
      It is a client side programing scripting language (High level)
      used to create applications(desktop/mobile/GUI/Cli/Web)
 
+to link js file in html
+`<script src="index.js"></script>`
+
 ## To Print 
      Console.log()/windows.console.log()
 
